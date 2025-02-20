@@ -1,0 +1,26 @@
+{
+  "name": "learnjs",
+  "version": "1.0.0",
+  "description": "! ette tuleb kohe krrektne htmle dokument\r / ees näitab et alati otsi samast kaustast style.css",
+  "main": "20250220script.js",
+  "scripts": {
+    // "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulRooso/learnjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaulRooso/learnjs/issues"
+  },
+  "homepage": "https://github.com/RaulRooso/learnjs#readme",
+  "devDependencies": {
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
