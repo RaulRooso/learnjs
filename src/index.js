@@ -1,8 +1,9 @@
+import './style.scss';
 
-//es moodul näide puudud uume ja tänapäevaselt rohkem kasutatud
-import es from './es.js'
+import * as bootstrap from 'bootstrap';
 
-
-//pigem vanemat tüüpi importimine
-const common = requier('./common.js');
-common.hello();
+fetch('https://api.chucknorris.io/jokes/random').then(res => {
+    return res.json();
+}).then(data => {
+    console.log(data.value);
+});

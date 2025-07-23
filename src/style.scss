@@ -1,0 +1,4 @@
+$primary: coral;
+@use "bootstrap/scss/bootstrap" with (
+    $primary: coral
+);
