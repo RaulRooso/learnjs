@@ -30,8 +30,8 @@ const scrape = async () => {
 
         const $ = cheerio.load(data);
         const title = $('title').text().trim();
-        const comicDiv = $('#comic');
-        const imgEl = comicDiv.find('img');
+
+        const imgEl = $('.webcomic-media img');
         const imgSrc = imgEl.attr('src');
 
         console.log(`Comic #${i}`);
